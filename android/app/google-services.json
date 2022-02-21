@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050725762059",
+    "project_id": "slidingpuzzle-bdf65",
+    "storage_bucket": "slidingpuzzle-bdf65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050725762059:android:d277117c90baaeb225330e",
+        "android_client_info": {
+          "package_name": "simon.elod.sliding_puzzle_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050725762059-hcfkkvdm9kagjf15de9dkufsdogt6da9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPfhXKPa4LMjtVHfY6MidZOy35lXTznxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050725762059-hcfkkvdm9kagjf15de9dkufsdogt6da9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
