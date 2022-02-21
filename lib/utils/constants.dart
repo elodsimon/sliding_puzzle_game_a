@@ -10,7 +10,7 @@ const double kRadius24 = 24.0;
 const double kBoardRatio = 0.55;
 const double kButtonWidth = 150.0;
 const double kScreenLimit = 1000.0;
-const double kMagic = 1.6;
+const double kMagic = 1.7;
 const kButtonRadius = RoundedRectangleBorder(
   borderRadius: BorderRadius.only(
     topLeft: Radius.circular(12),
