@@ -83,7 +83,7 @@ class ColumnizedBoard extends StatelessWidget {
             height: mediaQuery.size.height * 0.01,
           ),
           FittedBox(
-            fit: BoxFit.scaleDown,
+            fit: BoxFit.fitHeight,
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(

@@ -19,8 +19,8 @@ class GeneralButton extends StatelessWidget {
       hoverElevation: 8,
       animationDuration: const Duration(seconds: 1),
 
-      elevation: 5,
-      // clipBehavior: Clip.antiAlias,
+      // elevation: 5,
+      clipBehavior: Clip.antiAlias,
       shape: kButtonRadius,
       child: SizedBox(
         width: kButtonWidth,
@@ -29,7 +29,7 @@ class GeneralButton extends StatelessWidget {
             label,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: mediaQuery.size.height * 0.02,
+              fontSize: mediaQuery.size.height * 0.03,
               color: Colors.white60,
               decoration: TextDecoration.none,
               fontFamily: 'Shizuru',

@@ -40,6 +40,7 @@ class _SoundHandlerState extends State<SoundHandler> {
 
   @override
   Widget build(BuildContext context) {
+    final mediaQuery = MediaQuery.of(context);
     return MaterialButton(
       padding: const EdgeInsets.all(20),
       minWidth: 50.0,
@@ -56,11 +57,11 @@ class _SoundHandlerState extends State<SoundHandler> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text(
+            Text(
               'SOUND',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 20.0,
+                fontSize: mediaQuery.size.height * 0.03,
                 color: Colors.white60,
                 decoration: TextDecoration.none,
                 fontFamily: 'Shizuru',
